@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FinallyApplication</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="title">请阅读并同意以下协议</string>
+    <string name="context">为保障您的个人信息安全，使用登录功能需要您先阅读并同意《用户服务协议及《隐私政策》</string>
+    <string name="tip_account">请输入用户账号</string>
+    <string name="tip_password">请输入密码</string>
+    <string name="retip_password">请再次输入密码</string>
 </resources>
