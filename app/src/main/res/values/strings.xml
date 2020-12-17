@@ -7,4 +7,7 @@
     <string name="tip_account">请输入用户账号</string>
     <string name="tip_password">请输入密码</string>
     <string name="retip_password">请再次输入密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
