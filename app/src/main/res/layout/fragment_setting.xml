@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SettingFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ImageView
+        android:id="@+id/imageView_user"
+        android:layout_width="162dp"
+        android:layout_height="146dp"
+        android:src="@drawable/photo"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="55dp" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="273dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_settings_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView_setting"
+            android:layout_width="368dp"
+            android:layout_height="match_parent"
+            android:text="设置"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="333dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_help_outline_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView_help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="帮助"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

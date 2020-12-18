@@ -10,4 +10,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help1">该应用播放音乐为本地音乐，若出现歌曲文件丢失的情况下，需要重新添加音乐文件。</string>
+    <string name="help2">导致本音乐文件不存在可能出现有以下几点原因：</string>
+    <string name="help3">1.模拟器SD卡加载失败；</string>
+    <string name="help4">2.在文件目录管理时，误将歌曲删除。</string>
 </resources>

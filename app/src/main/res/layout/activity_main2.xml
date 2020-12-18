@@ -20,7 +20,7 @@
         android:id="@+id/bottomNV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="#F0D999"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/menu" />
 

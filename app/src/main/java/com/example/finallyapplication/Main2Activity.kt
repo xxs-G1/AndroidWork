@@ -31,7 +31,7 @@ class Main2Activity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frameLayout,musicListFragment)
                         .commit()
-                R.id.setting ->
+                R.id.my ->
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frameLayout,settingFragment)
                         .commit()
