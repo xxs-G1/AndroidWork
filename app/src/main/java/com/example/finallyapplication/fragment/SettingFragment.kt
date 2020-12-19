@@ -1,4 +1,4 @@
-package com.example.finallyapplication
+package com.example.finallyapplication.fragment
 
 import android.annotation.SuppressLint
 import android.content.Intent
